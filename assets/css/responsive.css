@@ -1,0 +1,86 @@
+@media screen and (max-width:1000px){
+    h2.heading-2 {
+        font-size: 55px;
+        letter-spacing: 10px;
+    }
+
+    .clothes__caption .heading-2 span {
+        font-size: 65px;
+        letter-spacing: 20px;
+    }
+
+    .btn{
+        min-width: 300px;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:991px){
+    #banner{
+        height: 500px;
+    }
+
+    h2.heading-2{
+        letter-spacing: 4px;
+    }
+
+    .clothes__caption .heading-2 span {
+        letter-spacing: 8px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .mt-30 {
+        margin-top: 20px;
+    }
+    .btn--email {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    #banner{
+        height: 150px;
+    }
+
+    .social-item {
+        margin-right: 10px;
+    }
+
+    #popup .popup__group-button {
+        margin-top: 20px;
+    }
+
+    .gallery-image{
+        display: block;
+    }
+    
+    .mb-heading{
+        margin-bottom: 35px;
+    }
+
+    #gallery .heading-2.heading-right{
+        text-align: right ;
+    }
+
+    .popup-details{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:400){
+    h2.heading-2 {
+        font-size: 40px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .popup-details{
+        width: 250px;
+        height: 250px;
+    }
+}
